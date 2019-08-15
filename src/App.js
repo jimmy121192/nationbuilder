@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 
 function Index() {
-  return 
+  return (
   <Container>
     <Row>
       <Col lg="12">
@@ -27,7 +27,7 @@ function Index() {
       </Col>
     </Row>
   </Container>
-
+  )
 }
 
 
