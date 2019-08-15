@@ -4,9 +4,30 @@ import './App.css';
 import Events from "./pages/Events";
 import People from "./pages/People";
 import Header from "./components/Header";
+import {
+  Container,
+  Row,
+  Col,
+  Badge
+
+} from "reactstrap";
 
 function Index() {
-  return <h2>Home</h2>;
+  return 
+  <Container>
+    <Row>
+      <Col lg="12">
+        <Badge color="info">Introduction</Badge><br/>
+        <h5>
+          This web application is for Nation Builder Developer Exercises.
+          The application was built with React.js and Node.js.
+  
+        </h5><br/>
+        <p>Jimmy Truong - Pace Creative Group</p>
+      </Col>
+    </Row>
+  </Container>
+
 }
 
 
