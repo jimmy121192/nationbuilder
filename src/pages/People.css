@@ -1,0 +1,39 @@
+.People{
+
+    padding: 2em 0;
+    }
+    
+    h5{
+        color: rgb(148, 151, 151)
+    }
+    .sub-nav{
+        height: 80px;
+        border-bottom: 1px solid #887006;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-nav a{
+        text-decoration: none;
+        margin: 2em;
+        padding: 5px 10px;
+        transition: 0.4s;
+    }
+    
+    .sub-nav a:hover{
+        text-decoration: none;
+    }
+    
+    .updatePerson{
+        margin: 2em 0;
+    }
+    
+    .hide{
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.2s linear;
+    }
+    .show{
+        visibility: visible;
+        opacity: 1;
+    }

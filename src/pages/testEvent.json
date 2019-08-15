@@ -1,0 +1,35 @@
+{
+    "event": {
+      "status": "published",
+      "name": "This is an updated Event",
+      "intro": "Take the 24hr nofoodchallenge!!!",
+      "time_zone": "Pacific Time (US & Canada)",
+      "start_time": "2020-05-08T17:00:00-00:00",
+      "end_time": "2021-05-08T19:00:00-00:00",
+      "contact": {
+        "name": "Jenny Truong",
+        "phone": "1234567890",
+        "show_phone": true,
+        "email": "contact@venue.com",
+        "show_email": true
+      },
+      "rsvp_form": {
+        "phone": "optional",
+        "address": "required",
+        "allow_guests": true,
+        "accept_rsvps": true,
+        "gather_volunteers": true
+      },
+      "show_guests": true,
+      "capacity": 80,
+      "venue": {
+        "name": "Ralphs Parking Lot",
+        "address": {
+          "address1": "123 Foo St",
+          "city": "Pasadena",
+          "state": "CA"
+        }
+      }
+    }
+  }
+
